@@ -1,0 +1,181 @@
+{
+  "id": "596a79d1-9e31-46f2-8482-2d07ec9bf5be",
+  "name": "order",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4c9148f3-5230-4891-84f7-fabce08e38e6",
+          "required": true,
+          "dataType": "@type",
+          "name": "type",
+          "value": "$type",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What type of pizza do you want?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "74cca49c-b22b-4f5a-b11d-18bbc5390665",
+          "required": true,
+          "dataType": "@size",
+          "name": "size",
+          "value": "$size",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What size of pizza do you want? we have Regular, medium, large"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "74719143-2288-49a9-8c2a-05c602e342dd",
+          "required": true,
+          "dataType": "@count",
+          "name": "count",
+          "value": "$count",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many pizza do you want?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "571a08ff-7300-4b61-ae4d-def0904839d5",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "0a03efe1-feed-4e55-b353-085927687d0d",
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Where are you staying?"
+            },
+            {
+              "lang": "en",
+              "value": "What\u0027s the address?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "498b3738-4d02-4ff4-9af7-d61afdc518c4",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone",
+          "value": "$phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your mobile number?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "5f5d9a3c-fe7d-4c53-856a-b6ae05fea548",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "e47fab58-8a82-43a6-88aa-b3629e7c6ebf",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "location",
+          "value": "$location",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a412ce88-f0cb-4240-80a7-79b72221155d",
+          "required": false,
+          "dataType": "@sys.person",
+          "name": "person",
+          "value": "$person",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thanks $name for information!We will get back to you!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

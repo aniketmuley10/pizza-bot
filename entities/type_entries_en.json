@@ -1,0 +1,21 @@
+[
+  {
+    "value": "veg",
+    "synonyms": [
+      "veg",
+      "paneer"
+    ]
+  },
+  {
+    "value": "non-veg",
+    "synonyms": [
+      "chicken"
+    ]
+  },
+  {
+    "value": "nonveg",
+    "synonyms": [
+      "nonveg"
+    ]
+  }
+]

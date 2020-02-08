@@ -1,0 +1,26 @@
+[
+  {
+    "value": "@sys.given-name:given-name",
+    "synonyms": []
+  },
+  {
+    "value": "akshay",
+    "synonyms": []
+  },
+  {
+    "value": "sushant",
+    "synonyms": []
+  },
+  {
+    "value": "@sys.person:person",
+    "synonyms": []
+  },
+  {
+    "value": "@sys.given-name:given-name ",
+    "synonyms": []
+  },
+  {
+    "value": "@sys.given-name:name",
+    "synonyms": []
+  }
+]
